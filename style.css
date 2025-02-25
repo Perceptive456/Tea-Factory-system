@@ -1,0 +1,132 @@
+ /* Custom Styles for Navbar */
+ .navbar {
+    background-color: #3f8205; /* Dark Blue */
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f1c40f !important; /* Golden Yellow */
+}
+.nav-link {
+    color: #ecf0f1 !important; /* Light Grey */
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link:hover {
+    color: #f1c40f !important; /* Golden Yellow on Hover */
+}
+.btn-primary {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+    font-size: 1rem;
+    padding: 5px 15px;
+}
+.btn-primary:hover {
+    background-color: #d4ac0d;
+    border-color: #d4ac0d;
+}
+ /* Home Page Styles */
+ .hero {
+    background: url('images/tea-plantation.jpg') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Page Sections */
+.page-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.page-section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.page-section p {
+    color: #555;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Us Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 80px 20px;
+}
+
+/* Products Section */
+#products {
+    background-color: #ffffff;
+    padding: 80px 20px;
+}
+
+/* Farmers Section */
+#farmers {
+    background-color: #f8f9fa;
+    padding: 80px 20px;
+}
+
+/* Orders Section */
+#orders {
+    background-color: #ffffff;
+    padding: 80px 20px;
+}
+
+/* Reports Section */
+#reports {
+    background-color: #f8f9fa;
+    padding: 80px 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 80px 20px;
+}
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#contact .form-label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+#contact .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#contact button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+ /* Footer Styles */
+ .footer {
+    background-color: #3f8205;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
